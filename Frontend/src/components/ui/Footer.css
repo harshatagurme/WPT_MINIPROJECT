@@ -1,0 +1,18 @@
+/* src/Footer.css */
+
+footer {
+    position: absolute;
+    bottom: -550px;
+    width: 100%;
+    margin-top: 50px;
+  }
+  
+  footer a {
+    color: inherit;
+    text-decoration: none;
+  }
+  
+  footer a:hover {
+    color: #d1d1d1;
+  }
+  

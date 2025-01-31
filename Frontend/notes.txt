@@ -1,0 +1,42 @@
+By default every server follows CORS policy
+CORS: Cross Origin Resource Sharing
+Frontend: 192.168.34.22
+Backend: 192.172.18.14
+
+by default server has blocked the requests from all the clients
+in our backend application we have to specify from which client we have to accept
+the request or from which client you don't want to 
+
+We have to allow a cors policy 
+to allow the CORS policy we need to deal with request headers but if 
+we don't want to write entire code for dealing with request headers for the cors
+then we will use a module i.e. cors 
+
+
+{
+    students : [{},{},{}]
+}
+
+Grid: AG Grid, pagination
+
+condition ? v1 : v2
+
+students.length == 0 ? <Alert> : <Table>
+
+for react-router-dom v6:
+
+const navigate = useNavigate();
+navigate('/edit-student');
+
+for react-router-dom v5:
+
+const history = useHistory();
+history.push('/edit-student');
+
+
+1. AJAX: response.text
+2. const response = await fetch(): const data = await response.json() promise
+ {status:'', total:'', articles: []}
+ data.status data.total data.articles
+ 
+3. axios: response.data
